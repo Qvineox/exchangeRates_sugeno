@@ -1,0 +1,733 @@
+{
+  "rules": [
+    {
+      "conditions": [
+        "cheap",
+        "cheap",
+        "cheap",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "cheap",
+        "cheap",
+        "balanced"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "cheap",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "cheap",
+        "balanced",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "cheap",
+        "balanced",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "cheap",
+        "balanced",
+        "expensive"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "cheap",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "cheap",
+        "expensive",
+        "balanced"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "cheap",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "balanced",
+        "cheap",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "balanced",
+        "cheap",
+        "balanced"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "balanced",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "balanced",
+        "balanced",
+        "cheap"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "balanced",
+        "balanced",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "balanced",
+        "balanced",
+        "expensive"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "balanced",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "balanced",
+        "expensive",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "balanced",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "cheap",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "cheap",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "balanced",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "balanced",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "balanced",
+        "expensive"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "expensive",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "cheap",
+        "cheap",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "cheap",
+        "cheap",
+        "balanced"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "cheap",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "cheap",
+        "balanced",
+        "cheap"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "cheap",
+        "balanced",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "cheap",
+        "balanced",
+        "expensive"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "cheap",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "cheap",
+        "expensive",
+        "balanced"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "cheap",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "balanced",
+        "cheap",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "balanced",
+        "cheap",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "balanced",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "balanced",
+        "balanced",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "balanced",
+        "balanced",
+        "expensive"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "balanced",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "balanced",
+        "expensive",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "balanced",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "expensive",
+        "cheap",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "expensive",
+        "cheap",
+        "balanced"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "expensive",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "expensive",
+        "balanced",
+        "cheap"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "expensive",
+        "balanced",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "expensive",
+        "balanced",
+        "expensive"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "expensive",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "expensive",
+        "expensive",
+        "balanced"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "balanced",
+        "expensive",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "cheap",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "cheap",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "balanced",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "balanced",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "balanced",
+        "expensive"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "expensive",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "balanced",
+        "cheap",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "balanced",
+        "cheap",
+        "balanced"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "balanced",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "balanced",
+        "balanced",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "balanced",
+        "balanced",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "balanced",
+        "balanced",
+        "expensive"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "balanced",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "balanced",
+        "expensive",
+        "balanced"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "balanced",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "expensive",
+        "cheap",
+        "cheap"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "expensive",
+        "cheap",
+        "balanced"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "expensive",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "expensive",
+        "balanced",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "expensive",
+        "balanced",
+        "balanced"
+      ],
+      "conclusion": "balanced"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "expensive",
+        "balanced",
+        "expensive"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "expensive",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "cheap"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "expensive",
+        "expensive",
+        "balanced"
+      ],
+      "conclusion": "expensive"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "expensive",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "expensive"
+    }
+  ]
+}
