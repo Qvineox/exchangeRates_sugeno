@@ -16,7 +16,7 @@
         "cheap",
         "fair"
       ],
-      "conclusion": "(x3 + x4) / 2 + 0.05"
+      "conclusion": "(x3 + x4) / 2 + 0.2"
     },
     {
       "conditions": [
@@ -124,7 +124,7 @@
         "fair",
         "fair"
       ],
-      "conclusion": "(x1 + x2 + x3) / 3 + 0.05"
+      "conclusion": "(x1 + x2 + x3) / 3 + 0.2"
     },
     {
       "conditions": [
@@ -151,7 +151,7 @@
         "expensive",
         "fair"
       ],
-      "conclusion": "(x1 + x2 + x4 + x3) / 4 - 0.05"
+      "conclusion": "(x1 + x2 + x4 + x3) / 4 - 0.2"
     },
     {
       "conditions": [
@@ -178,7 +178,7 @@
         "cheap",
         "fair"
       ],
-      "conclusion": "(x3 + x4) / 2 + 0.05"
+      "conclusion": "(x3 + x4) / 2 + 0.2"
     },
     {
       "conditions": [
@@ -214,7 +214,7 @@
         "fair",
         "expensive"
       ],
-      "conclusion": "(x2 + x3 + x4) / 3 - 0.05"
+      "conclusion": "(x2 + x3 + x4) / 3 - 0.2"
     },
     {
       "conditions": [
@@ -232,7 +232,7 @@
         "expensive",
         "fair"
       ],
-      "conclusion": "(x2 + x3 + x4) / 3 - 0.05"
+      "conclusion": "(x2 + x3 + x4) / 3 - 0.2"
     },
     {
       "conditions": [
@@ -250,7 +250,7 @@
         "cheap",
         "cheap"
       ],
-      "conclusion": "(x2 + x3 + x4) / 3 + 0.02"
+      "conclusion": "(x2 + x3 + x4) / 3 + 0.4"
     },
     {
       "conditions": [
@@ -277,7 +277,7 @@
         "fair",
         "cheap"
       ],
-      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.02"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.4"
     },
     {
       "conditions": [
@@ -286,7 +286,7 @@
         "fair",
         "fair"
       ],
-      "conclusion": "(x3 + x4) / 2 + 0.05"
+      "conclusion": "(x3 + x4) / 2 + 0.2"
     },
     {
       "conditions": [
@@ -295,7 +295,7 @@
         "fair",
         "expensive"
       ],
-      "conclusion": "(x3 + x4) / 2 + 0.05"
+      "conclusion": "(x3 + x4) / 2 + 0.2"
     },
     {
       "conditions": [
@@ -304,7 +304,7 @@
         "expensive",
         "cheap"
       ],
-      "conclusion": "(x2 + x3 + x4) / 3 - 0.05"
+      "conclusion": "(x2 + x3 + x4) / 3 - 0.2"
     },
     {
       "conditions": [
@@ -322,7 +322,7 @@
         "expensive",
         "expensive"
       ],
-      "conclusion": "(x3 + x4) / 2 + 0.02"
+      "conclusion": "(x3 + x4) / 2 + 0.4"
     },
     {
       "conditions": [
@@ -340,7 +340,7 @@
         "cheap",
         "fair"
       ],
-      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.05"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.2"
     },
     {
       "conditions": [
@@ -367,7 +367,7 @@
         "fair",
         "fair"
       ],
-      "conclusion": "(x1 + x2 + x3 + x4) / 4"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 1"
     },
     {
       "conditions": [
@@ -376,7 +376,7 @@
         "fair",
         "expensive"
       ],
-      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.05"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.2"
     },
     {
       "conditions": [
@@ -394,7 +394,7 @@
         "expensive",
         "fair"
       ],
-      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.02"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.4"
     },
     {
       "conditions": [
@@ -430,7 +430,7 @@
         "cheap",
         "expensive"
       ],
-      "conclusion": "(x1 + x2 + x4) / 4 - 0.05"
+      "conclusion": "(x1 + x2 + x4) / 4 - 0.2"
     },
     {
       "conditions": [
@@ -439,7 +439,7 @@
         "fair",
         "cheap"
       ],
-      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.05"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.2"
     },
     {
       "conditions": [
@@ -448,7 +448,7 @@
         "fair",
         "fair"
       ],
-      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.02"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.4"
     },
     {
       "conditions": [
@@ -457,7 +457,7 @@
         "fair",
         "expensive"
       ],
-      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.01"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.1"
     },
     {
       "conditions": [
@@ -484,7 +484,7 @@
         "expensive",
         "expensive"
       ],
-      "conclusion": "(x2 + x3 + x4) / 3 + 0.05"
+      "conclusion": "(x2 + x3 + x4) / 3 + 0.2"
     },
     {
       "conditions": [
@@ -502,7 +502,7 @@
         "cheap",
         "fair"
       ],
-      "conclusion": "(x3 + x4) / 2 + 0.02"
+      "conclusion": "(x3 + x4) / 2 + 0.4"
     },
     {
       "conditions": [
@@ -529,7 +529,7 @@
         "fair",
         "fair"
       ],
-      "conclusion": "(x3 + x4) / 2 + 0.02"
+      "conclusion": "(x3 + x4) / 2 + 0.4"
     },
     {
       "conditions": [
@@ -556,7 +556,7 @@
         "expensive",
         "fair"
       ],
-      "conclusion": "(x1 + x3 + x4) / 3 + 0.02"
+      "conclusion": "(x1 + x3 + x4) / 3 + 0.4"
     },
     {
       "conditions": [
@@ -565,7 +565,7 @@
         "expensive",
         "expensive"
       ],
-      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.02"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.4"
     },
     {
       "conditions": [
@@ -574,7 +574,7 @@
         "cheap",
         "cheap"
       ],
-      "conclusion": "(x2 + x3 + x4) / 3 - 0.02"
+      "conclusion": "(x2 + x3 + x4) / 3 - 0.4"
     },
     {
       "conditions": [
@@ -583,7 +583,7 @@
         "cheap",
         "fair"
       ],
-      "conclusion": "(x3 + x4) / 2 + 0.02"
+      "conclusion": "(x3 + x4) / 2 + 0.4"
     },
     {
       "conditions": [
@@ -610,7 +610,7 @@
         "fair",
         "fair"
       ],
-      "conclusion": "(x2 + x3 + x4) / 3 - 0.02"
+      "conclusion": "(x2 + x3 + x4) / 3 - 0.4"
     },
     {
       "conditions": [
@@ -637,7 +637,7 @@
         "expensive",
         "fair"
       ],
-      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.05"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.2"
     },
     {
       "conditions": [
@@ -655,7 +655,7 @@
         "cheap",
         "cheap"
       ],
-      "conclusion": "(x3 + x4) / 2 - 0.01"
+      "conclusion": "(x3 + x4) / 2 - 0.1"
     },
     {
       "conditions": [
@@ -664,7 +664,7 @@
         "cheap",
         "fair"
       ],
-      "conclusion": "(x3 + x4) / 2 - 0.05"
+      "conclusion": "(x3 + x4) / 2 - 0.2"
     },
     {
       "conditions": [
@@ -691,7 +691,7 @@
         "fair",
         "fair"
       ],
-      "conclusion": "(x3 + x4) / 2 - 0.01"
+      "conclusion": "(x3 + x4) / 2 - 0.1"
     },
     {
       "conditions": [
@@ -700,7 +700,7 @@
         "fair",
         "expensive"
       ],
-      "conclusion": "(x1 + x2 + x4) / 3 - 0.01"
+      "conclusion": "(x1 + x2 + x4) / 3 - 0.1"
     },
     {
       "conditions": [
@@ -727,7 +727,7 @@
         "expensive",
         "expensive"
       ],
-      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.05"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.2"
     }
   ]
 }

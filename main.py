@@ -1,5 +1,7 @@
 import json
 
+from matplotlib import pyplot as plt
+
 input_variables = []
 
 
@@ -63,7 +65,7 @@ class DefuzzifactionNeuron:
 # Layer 1 is the input variables, fuzzy sets. Each node in layer 1 fits a function parameter.
 def fuzzification_layer():
     global input_variables
-    print("0 LAYER: {0}".format(input_variables))
+    # print("0 LAYER: {0}".format(input_variables))
 
     cheap_fuzzificator = FuzzificationNeuron(9, 1.9)
     fair_fuzzificator = FuzzificationNeuron(10.5, 1.3)
@@ -79,7 +81,7 @@ def fuzzification_layer():
             {'membership': expensive_fuzzificator.quantify(x), 'term': 'expensive'}
         ])
 
-    print("1 LAYER: {0}".format(results))
+    # print("1 LAYER: {0}".format(results))
     return results
 
 
@@ -98,7 +100,7 @@ def agregation_layer(fuzzificated_values):
                             [x1['membership'], x2['membership'], x3['membership'], x4['membership']]),
                             'terms': [x1['term'], x2['term'], x3['term'], x4['term']]})
 
-    print("2 LAYER: (amount: {0}) {1}".format(len(results), results))
+    # print("2 LAYER: (amount: {0}) {1}".format(len(results), results))
     return results
 
 
@@ -111,7 +113,7 @@ def normalization_layer(agregated_values):
     for x in agregated_values:
         results.append({'value': normalizator.normalize(x['value']), 'terms': x['terms']})
 
-    print("3 LAYER: (sum: {0}) {1}".format(normalizator.total, results))
+    # print("3 LAYER: (sum: {0}) {1}".format(normalizator.total, results))
     return results
 
 
@@ -123,7 +125,7 @@ def defuzzification_layer(normalized_variables):
     for x in normalized_variables:
         results.append(defuzzificator.defuzzification(x['value'], x['terms']))
 
-    print("4 LAYER: (amount: {0}) {1}".format(len(results), results))
+    # print("4 LAYER: (amount: {0}) {1}".format(len(results), results))
     return results
 
 
@@ -131,10 +133,36 @@ def defuzzification_layer(normalized_variables):
 def summary_layer(defuzzificated_variables):
     result = round(sum(defuzzificated_variables), 2)
 
-    print("5 LAYER: {0}".format(result))
+    # print("5 LAYER: {0}".format(result))
     return result
 
 
+def build_histogram(summary_data):
+    print(summary_data)
+
+    plt.figure(figsize=(10, 10))
+    plt.plot(summary_data)
+    plt.xlabel("Дни последовательности")
+    plt.ylabel("Цена в ₽")
+    plt.title("Прогнозирование временного ряда изменения курса валюты")
+
+    plt.show()
+
+
 if __name__ == '__main__':
-    input_variables = [11.5, 11.9, 10.2, 10.6]
-    summary_layer(defuzzification_layer(normalization_layer(agregation_layer(fuzzification_layer()))))
+    data = []
+
+    input_variables = [9.5, 9.9, 10.2, 10.9]
+    data += input_variables
+
+    for i in range(50):
+        result_data = summary_layer(defuzzification_layer(normalization_layer(agregation_layer(fuzzification_layer()))))
+        data.append(result_data)
+
+        input_variables.append(result_data)
+        input_variables.pop(0)
+
+    # result_data = summary_layer(defuzzification_layer(normalization_layer(agregation_layer(fuzzification_layer()))))
+    # data.append(result_data)
+
+    build_histogram(data)
