@@ -7,16 +7,16 @@
         "cheap",
         "cheap"
       ],
-      "conclusion": "cheap"
+      "conclusion": "(x1 + x2 + x3 + x4) / 2"
     },
     {
       "conditions": [
         "cheap",
         "cheap",
         "cheap",
-        "balanced"
+        "fair"
       ],
-      "conclusion": "cheap"
+      "conclusion": "(x3 + x4) / 2 + 0.05"
     },
     {
       "conditions": [
@@ -25,646 +25,646 @@
         "cheap",
         "expensive"
       ],
-      "conclusion": "cheap"
+      "conclusion": "(x1 + x2 + x4 + x3) / 4 + 0.1"
     },
     {
       "conditions": [
         "cheap",
         "cheap",
-        "balanced",
+        "fair",
         "cheap"
       ],
-      "conclusion": "cheap"
+      "conclusion": "x4 + 0.2"
     },
     {
       "conditions": [
         "cheap",
         "cheap",
-        "balanced",
-        "balanced"
+        "fair",
+        "fair"
       ],
-      "conclusion": "balanced"
+      "conclusion": "(x3 + x4) / 2 + 0.1"
     },
     {
       "conditions": [
         "cheap",
         "cheap",
-        "balanced",
+        "fair",
         "expensive"
       ],
-      "conclusion": "balanced"
+      "conclusion": "(x1 + x2) / 2 * (x4 / x3)"
     },
     {
       "conditions": [
         "cheap",
-        "cheap",
-        "expensive",
-        "cheap"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "cheap",
-        "expensive",
-        "balanced"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "cheap",
-        "expensive",
-        "expensive"
-      ],
-      "conclusion": "expensive"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "balanced",
-        "cheap",
-        "cheap"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "balanced",
-        "cheap",
-        "balanced"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "balanced",
-        "cheap",
-        "expensive"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "balanced",
-        "balanced",
-        "cheap"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "balanced",
-        "balanced",
-        "balanced"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "balanced",
-        "balanced",
-        "expensive"
-      ],
-      "conclusion": "expensive"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "balanced",
-        "expensive",
-        "cheap"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "balanced",
-        "expensive",
-        "balanced"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "balanced",
-        "expensive",
-        "expensive"
-      ],
-      "conclusion": "expensive"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "expensive",
-        "cheap",
-        "cheap"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "expensive",
-        "cheap",
-        "balanced"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "expensive",
-        "cheap",
-        "expensive"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "expensive",
-        "balanced",
-        "cheap"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "expensive",
-        "balanced",
-        "balanced"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "expensive",
-        "balanced",
-        "expensive"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "expensive",
-        "expensive",
-        "cheap"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "expensive",
-        "expensive",
-        "balanced"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "cheap",
-        "expensive",
-        "expensive",
-        "expensive"
-      ],
-      "conclusion": "expensive"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "cheap",
-        "cheap",
-        "cheap"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "cheap",
-        "cheap",
-        "balanced"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "cheap",
-        "cheap",
-        "expensive"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "cheap",
-        "balanced",
-        "cheap"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "cheap",
-        "balanced",
-        "balanced"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "cheap",
-        "balanced",
-        "expensive"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "balanced",
         "cheap",
         "expensive",
         "cheap"
       ],
-      "conclusion": "expensive"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.1"
     },
     {
       "conditions": [
-        "balanced",
+        "cheap",
         "cheap",
         "expensive",
-        "balanced"
+        "fair"
       ],
-      "conclusion": "expensive"
+      "conclusion": "(x3 + x4) / 2 - 0.2"
     },
     {
       "conditions": [
-        "balanced",
+        "cheap",
         "cheap",
         "expensive",
         "expensive"
       ],
-      "conclusion": "balanced"
+      "conclusion": "(x3 + x4) / 2 + 0.2"
     },
     {
       "conditions": [
-        "balanced",
-        "balanced",
+        "cheap",
+        "fair",
         "cheap",
         "cheap"
       ],
-      "conclusion": "cheap"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.2"
     },
     {
       "conditions": [
-        "balanced",
-        "balanced",
         "cheap",
-        "balanced"
+        "fair",
+        "cheap",
+        "fair"
       ],
-      "conclusion": "balanced"
+      "conclusion": "(x1 + x2 + x3 + x4 + 0.15) / 4"
     },
     {
       "conditions": [
-        "balanced",
-        "balanced",
+        "cheap",
+        "fair",
         "cheap",
         "expensive"
       ],
-      "conclusion": "cheap"
+      "conclusion": "(x1 + x2 + x3 + x4 + 0.5) / 4"
     },
     {
       "conditions": [
-        "balanced",
-        "balanced",
-        "balanced",
+        "cheap",
+        "fair",
+        "fair",
         "cheap"
       ],
-      "conclusion": "cheap"
+      "conclusion": "(x1 + x2 + x3 + x4 + 0.3) / 4"
     },
     {
       "conditions": [
-        "balanced",
-        "balanced",
-        "balanced",
-        "balanced"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "balanced",
-        "balanced",
-        "expensive"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "balanced",
-        "expensive",
-        "cheap"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "balanced",
-        "expensive",
-        "balanced"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "balanced",
-        "expensive",
-        "expensive"
-      ],
-      "conclusion": "expensive"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "expensive",
         "cheap",
-        "cheap"
+        "fair",
+        "fair",
+        "fair"
       ],
-      "conclusion": "cheap"
+      "conclusion": "(x1 + x2 + x3) / 3 + 0.05"
     },
     {
       "conditions": [
-        "balanced",
-        "expensive",
         "cheap",
-        "balanced"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "expensive",
-        "cheap",
+        "fair",
+        "fair",
         "expensive"
       ],
-      "conclusion": "balanced"
+      "conclusion": "(x3 + x4) / 2 + 0.2"
     },
     {
       "conditions": [
-        "balanced",
-        "expensive",
-        "balanced",
-        "cheap"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "expensive",
-        "balanced",
-        "balanced"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "expensive",
-        "balanced",
-        "expensive"
-      ],
-      "conclusion": "expensive"
-    },
-    {
-      "conditions": [
-        "balanced",
-        "expensive",
+        "cheap",
+        "fair",
         "expensive",
         "cheap"
       ],
-      "conclusion": "balanced"
+      "conclusion": "(x1 + x4) / 2 + 0.15"
     },
     {
       "conditions": [
-        "balanced",
+        "cheap",
+        "fair",
         "expensive",
-        "expensive",
-        "balanced"
+        "fair"
       ],
-      "conclusion": "expensive"
+      "conclusion": "(x1 + x2 + x4 + x3) / 4 - 0.05"
     },
     {
       "conditions": [
-        "balanced",
-        "expensive",
+        "cheap",
+        "fair",
         "expensive",
         "expensive"
       ],
-      "conclusion": "expensive"
+      "conclusion": "(x3 + x4) / 2 + 0.1"
     },
     {
       "conditions": [
-        "expensive",
         "cheap",
-        "cheap",
-        "cheap"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "cheap",
-        "cheap",
-        "balanced"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "cheap",
-        "cheap",
-        "expensive"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "cheap",
-        "balanced",
-        "cheap"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "cheap",
-        "balanced",
-        "balanced"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "cheap",
-        "balanced",
-        "expensive"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "cheap",
-        "expensive",
-        "cheap"
-      ],
-      "conclusion": "expensive"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "cheap",
-        "expensive",
-        "balanced"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "cheap",
-        "expensive",
-        "expensive"
-      ],
-      "conclusion": "expensive"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "balanced",
-        "cheap",
-        "cheap"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "balanced",
-        "cheap",
-        "balanced"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "balanced",
-        "cheap",
-        "expensive"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "balanced",
-        "balanced",
-        "cheap"
-      ],
-      "conclusion": "cheap"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "balanced",
-        "balanced",
-        "balanced"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "balanced",
-        "balanced",
-        "expensive"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "balanced",
-        "expensive",
-        "cheap"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "balanced",
-        "expensive",
-        "balanced"
-      ],
-      "conclusion": "expensive"
-    },
-    {
-      "conditions": [
-        "expensive",
-        "balanced",
-        "expensive",
-        "expensive"
-      ],
-      "conclusion": "balanced"
-    },
-    {
-      "conditions": [
-        "expensive",
         "expensive",
         "cheap",
         "cheap"
       ],
-      "conclusion": "balanced"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.1"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "cheap",
+        "fair"
+      ],
+      "conclusion": "(x3 + x4) / 2 + 0.05"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.1"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "fair",
+        "cheap"
+      ],
+      "conclusion": "(x2 + x3 + x4) / 3 - 0.2"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "fair",
+        "fair"
+      ],
+      "conclusion": "(x3 + x4) / 2"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "fair",
+        "expensive"
+      ],
+      "conclusion": "(x2 + x3 + x4) / 3 - 0.05"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.15"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "expensive",
+        "fair"
+      ],
+      "conclusion": "(x2 + x3 + x4) / 3 - 0.05"
+    },
+    {
+      "conditions": [
+        "cheap",
+        "expensive",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "(x2 + x3 + x4) / 3 + 0.15"
+    },
+    {
+      "conditions": [
+        "fair",
+        "cheap",
+        "cheap",
+        "cheap"
+      ],
+      "conclusion": "(x2 + x3 + x4) / 3 + 0.02"
+    },
+    {
+      "conditions": [
+        "fair",
+        "cheap",
+        "cheap",
+        "fair"
+      ],
+      "conclusion": "(x3 + x4) / 2 + 0.15"
+    },
+    {
+      "conditions": [
+        "fair",
+        "cheap",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "(x3 + x4) / 2 + 0.2"
+    },
+    {
+      "conditions": [
+        "fair",
+        "cheap",
+        "fair",
+        "cheap"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.02"
+    },
+    {
+      "conditions": [
+        "fair",
+        "cheap",
+        "fair",
+        "fair"
+      ],
+      "conclusion": "(x3 + x4) / 2 + 0.05"
+    },
+    {
+      "conditions": [
+        "fair",
+        "cheap",
+        "fair",
+        "expensive"
+      ],
+      "conclusion": "(x3 + x4) / 2 + 0.05"
+    },
+    {
+      "conditions": [
+        "fair",
+        "cheap",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "(x2 + x3 + x4) / 3 - 0.05"
+    },
+    {
+      "conditions": [
+        "fair",
+        "cheap",
+        "expensive",
+        "fair"
+      ],
+      "conclusion": "(x2 + x3 + x4) / 3 - 0.1"
+    },
+    {
+      "conditions": [
+        "fair",
+        "cheap",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "(x3 + x4) / 2 + 0.02"
+    },
+    {
+      "conditions": [
+        "fair",
+        "fair",
+        "cheap",
+        "cheap"
+      ],
+      "conclusion": "(x3 + x4) / 2 - 0.08"
+    },
+    {
+      "conditions": [
+        "fair",
+        "fair",
+        "cheap",
+        "fair"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.05"
+    },
+    {
+      "conditions": [
+        "fair",
+        "fair",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.15"
+    },
+    {
+      "conditions": [
+        "fair",
+        "fair",
+        "fair",
+        "cheap"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.1"
+    },
+    {
+      "conditions": [
+        "fair",
+        "fair",
+        "fair",
+        "fair"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4"
+    },
+    {
+      "conditions": [
+        "fair",
+        "fair",
+        "fair",
+        "expensive"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.05"
+    },
+    {
+      "conditions": [
+        "fair",
+        "fair",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "(x2 + x3 + x4) / 4 - 0.15"
+    },
+    {
+      "conditions": [
+        "fair",
+        "fair",
+        "expensive",
+        "fair"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.02"
+    },
+    {
+      "conditions": [
+        "fair",
+        "fair",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.2"
+    },
+    {
+      "conditions": [
+        "fair",
+        "expensive",
+        "cheap",
+        "cheap"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.1"
+    },
+    {
+      "conditions": [
+        "fair",
+        "expensive",
+        "cheap",
+        "fair"
+      ],
+      "conclusion": "(x1 + x2 + x4) / 3 - 0.15"
+    },
+    {
+      "conditions": [
+        "fair",
+        "expensive",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "(x1 + x2 + x4) / 4 - 0.05"
+    },
+    {
+      "conditions": [
+        "fair",
+        "expensive",
+        "fair",
+        "cheap"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.05"
+    },
+    {
+      "conditions": [
+        "fair",
+        "expensive",
+        "fair",
+        "fair"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.02"
+    },
+    {
+      "conditions": [
+        "fair",
+        "expensive",
+        "fair",
+        "expensive"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.01"
+    },
+    {
+      "conditions": [
+        "fair",
+        "expensive",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.1"
+    },
+    {
+      "conditions": [
+        "fair",
+        "expensive",
+        "expensive",
+        "fair"
+      ],
+      "conclusion": "(x2 + x3) / 4 - 0.1"
+    },
+    {
+      "conditions": [
+        "fair",
+        "expensive",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "(x2 + x3 + x4) / 3 + 0.05"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "cheap",
+        "cheap"
+      ],
+      "conclusion": "(x2 + x3 + x4) / 3"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "cheap",
+        "fair"
+      ],
+      "conclusion": "(x3 + x4) / 2 + 0.02"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "(x2 + x3) / 2 + 0.2"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "fair",
+        "cheap"
+      ],
+      "conclusion": "(x1 + x3) / 2 - 0.15"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "fair",
+        "fair"
+      ],
+      "conclusion": "(x3 + x4) / 2 + 0.02"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "fair",
+        "expensive"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.1"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "(x1 + x3) / 2 - 0.06"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "expensive",
+        "fair"
+      ],
+      "conclusion": "(x1 + x3 + x4) / 3 + 0.02"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "cheap",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.02"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "fair",
+        "cheap",
+        "cheap"
+      ],
+      "conclusion": "(x2 + x3 + x4) / 3 - 0.02"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "fair",
+        "cheap",
+        "fair"
+      ],
+      "conclusion": "(x3 + x4) / 2 + 0.02"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "fair",
+        "cheap",
+        "expensive"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.15"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "fair",
+        "fair",
+        "cheap"
+      ],
+      "conclusion": "(x3 + x4) / 2 - 0.06"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "fair",
+        "fair",
+        "fair"
+      ],
+      "conclusion": "(x2 + x3 + x4) / 3 - 0.02"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "fair",
+        "fair",
+        "expensive"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "fair",
+        "expensive",
+        "cheap"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.1"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "fair",
+        "expensive",
+        "fair"
+      ],
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.05"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "fair",
+        "expensive",
+        "expensive"
+      ],
+      "conclusion": "(x3 + x4) / 2 + 0.03"
     },
     {
       "conditions": [
         "expensive",
         "expensive",
         "cheap",
-        "balanced"
+        "cheap"
       ],
-      "conclusion": "cheap"
+      "conclusion": "(x3 + x4) / 2 - 0.01"
+    },
+    {
+      "conditions": [
+        "expensive",
+        "expensive",
+        "cheap",
+        "fair"
+      ],
+      "conclusion": "(x3 + x4) / 2 - 0.05"
     },
     {
       "conditions": [
@@ -673,34 +673,34 @@
         "cheap",
         "expensive"
       ],
-      "conclusion": "expensive"
+      "conclusion": "(x1 + x3 + x4) / 3 - 0.3"
     },
     {
       "conditions": [
         "expensive",
         "expensive",
-        "balanced",
+        "fair",
         "cheap"
       ],
-      "conclusion": "cheap"
+      "conclusion": "(x3 + x4) / 2 - 0.2"
     },
     {
       "conditions": [
         "expensive",
         "expensive",
-        "balanced",
-        "balanced"
+        "fair",
+        "fair"
       ],
-      "conclusion": "balanced"
+      "conclusion": "(x3 + x4) / 2 - 0.01"
     },
     {
       "conditions": [
         "expensive",
         "expensive",
-        "balanced",
+        "fair",
         "expensive"
       ],
-      "conclusion": "expensive"
+      "conclusion": "(x1 + x2 + x4) / 3 - 0.01"
     },
     {
       "conditions": [
@@ -709,16 +709,16 @@
         "expensive",
         "cheap"
       ],
-      "conclusion": "cheap"
+      "conclusion": "(x3 + x4) / 2 + 0.3"
     },
     {
       "conditions": [
         "expensive",
         "expensive",
         "expensive",
-        "balanced"
+        "fair"
       ],
-      "conclusion": "expensive"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 - 0.2"
     },
     {
       "conditions": [
@@ -727,7 +727,7 @@
         "expensive",
         "expensive"
       ],
-      "conclusion": "expensive"
+      "conclusion": "(x1 + x2 + x3 + x4) / 4 + 0.05"
     }
   ]
 }
