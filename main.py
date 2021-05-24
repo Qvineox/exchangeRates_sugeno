@@ -3,21 +3,38 @@ import json
 from matplotlib import pyplot as plt
 
 input_variables = []
+fuzzification_parameters = {
+    'cheap': [9, 1.9],
+    'fair': [10.5, 1.3],
+    'expensive': [12, 1.5],
+}
 
 
 def load_rules():
     _rules = []
 
     with open('rules.json') as json_file:
-        data = json.load(json_file)
+        _data = json.load(json_file)
 
-        for rule in data['rules']:
+        for rule in _data['rules']:
             _rules.append({
                 'conditions': rule['conditions'],
                 'conclusion': rule['conclusion']
             })
 
     return _rules
+
+
+def load_training_data():
+    _training_data = []
+
+    with open('training_data/june_data.json') as json_file:
+        _data = json.load(json_file)
+
+        for _ in _data['exchange_rates']:
+            _training_data.append(_)
+
+    return _training_data
 
 
 class FuzzificationNeuron:
@@ -65,11 +82,12 @@ class DefuzzifactionNeuron:
 # Layer 1 is the input variables, fuzzy sets. Each node in layer 1 fits a function parameter.
 def fuzzification_layer():
     global input_variables
+    global fuzzification_parameters
     # print("0 LAYER: {0}".format(input_variables))
 
-    cheap_fuzzificator = FuzzificationNeuron(9, 1.9)
-    fair_fuzzificator = FuzzificationNeuron(10.5, 1.3)
-    expensive_fuzzificator = FuzzificationNeuron(12, 1.5)
+    cheap_fuzzificator = FuzzificationNeuron(*fuzzification_parameters['cheap'])
+    fair_fuzzificator = FuzzificationNeuron(*fuzzification_parameters['fair'])
+    expensive_fuzzificator = FuzzificationNeuron(*fuzzification_parameters['expensive'])
 
     results = []
 
@@ -137,11 +155,15 @@ def summary_layer(defuzzificated_variables):
     return result
 
 
-def build_histogram(summary_data):
+def build_histogram(summary_data, _training_data):
     print(summary_data)
 
     plt.figure(figsize=(10, 10))
     plt.plot(summary_data)
+
+    if _training_data:
+        plt.plot(load_training_data())
+
     plt.xlabel("Дни последовательности")
     plt.ylabel("Цена в ₽")
     plt.title("Прогнозирование временного ряда изменения курса валюты")
@@ -149,13 +171,58 @@ def build_histogram(summary_data):
     plt.show()
 
 
+def back_propagation(_result_data, _test_data, speed=0.1):
+    global fuzzification_parameters
+    zip_object = zip(_result_data, _test_data)
+    _mistakes = []
+
+    for _i, _j in zip_object:
+        _mistakes.append(round(pow(_i - _j, 2) / 2, 2))
+
+    shifts = []
+    for _ in _mistakes:
+
+        if _ != 0:
+            shifts.append((
+                [fuzzification_parameters['cheap'][0] - (speed * (_ / fuzzification_parameters['cheap'][0])),
+                 fuzzification_parameters['cheap'][1] - (speed * (_ / fuzzification_parameters['cheap'][1]))],
+                [fuzzification_parameters['fair'][0] - (speed * (_ / fuzzification_parameters['fair'][0])),
+                 fuzzification_parameters['fair'][1] - (speed * (_ / fuzzification_parameters['fair'][1]))],
+                [fuzzification_parameters['expensive'][0] - (speed * (_ / fuzzification_parameters['expensive'][0])),
+                 fuzzification_parameters['expensive'][1] - (speed * (_ / fuzzification_parameters['expensive'][1]))],
+            ))
+        else:
+            shifts.append((
+                [fuzzification_parameters['cheap'][0],
+                 fuzzification_parameters['cheap'][1]],
+                [fuzzification_parameters['fair'][0],
+                 fuzzification_parameters['fair'][1]],
+                [fuzzification_parameters['expensive'][0],
+                 fuzzification_parameters['expensive'][1]],
+            ))
+
+    new_result_data = []
+    for _ in shifts:
+        fuzzification_parameters['cheap'] = _[0]
+        fuzzification_parameters['fair'] = _[1]
+        fuzzification_parameters['expensive'] = _[2]
+
+        _result_data = summary_layer(
+            defuzzification_layer(normalization_layer(agregation_layer(fuzzification_layer()))))
+        new_result_data.append(_result_data)
+
+    return new_result_data
+
+
 if __name__ == '__main__':
     data = []
-
-    input_variables = [9.5, 9.9, 10.2, 10.9]
+    input_variables = [11.45,
+                       11.52,
+                       11.59,
+                       11.66]
     data += input_variables
 
-    for i in range(50):
+    for i in range(30):
         result_data = summary_layer(defuzzification_layer(normalization_layer(agregation_layer(fuzzification_layer()))))
         data.append(result_data)
 
@@ -165,4 +232,9 @@ if __name__ == '__main__':
     # result_data = summary_layer(defuzzification_layer(normalization_layer(agregation_layer(fuzzification_layer()))))
     # data.append(result_data)
 
-    build_histogram(data)
+    training_data = load_training_data()
+    build_histogram(data, training_data)
+
+    trained_1 = back_propagation(data, training_data)
+
+    build_histogram(trained_1, training_data)
